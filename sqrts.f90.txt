@@ -1,0 +1,9 @@
+integer icount
+real rcount
+real sqrtres
+do icount = 1, 100, 1
+rcount = real(icount)
+sqrtres=sqrt(rcount)
+print *,sqrtres, icount
+end do
+end program      
